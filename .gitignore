@@ -1,30 +1,18 @@
-# Python virtual environments
-venv/
+# Secrets and environments
+.env
 .venv/
-env/
-
-# Python cache files
+venv/
 __pycache__/
 *.py[cod]
 
-# Environment variables and secrets
-.env
-.env.*
-
-# Allow an example environment file
-!.env.example
-
-# Chroma vector database
+# Local vector index and runtime outputs
 chroma_db/
+data/cache/*
+data/logs/*
+data/processed/*
+!data/cache/.gitkeep
+!data/logs/.gitkeep
+!data/processed/.gitkeep
 
-# Logs and databases
-logs/*
-!logs/.gitkeep
-*.db
-*.sqlite
-*.sqlite3
-
-# IDE and OS files
-.vscode/
-.DS_Store
-Thumbs.db
+# User's raw dataset can be large and may contain sensitive text
+data/tickets_raw.csv

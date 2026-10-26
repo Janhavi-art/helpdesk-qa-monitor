@@ -1,0 +1,14 @@
+[
+  {"question": "My Wi-Fi keeps disconnecting. How can I fix it?", "gold_doc": "wifi_troubleshooting.md", "answerable": true},
+  {"question": "I forgot my password and cannot log in.", "gold_doc": "password_reset.md", "answerable": true},
+  {"question": "My laptop will not turn on.", "gold_doc": "laptop_power.md", "answerable": true},
+  {"question": "How do I request access to an application?", "gold_doc": "access_request.md", "answerable": true},
+  {"question": "Outlook is not syncing my emails.", "gold_doc": "outlook_sync.md", "answerable": true},
+  {"question": "How should I install software on my work laptop?", "gold_doc": "software_installation.md", "answerable": true},
+  {"question": "I cannot access the network drive.", "gold_doc": "shared_drive_access.md", "answerable": true},
+  {"question": "I received an unexpected MFA prompt. What should I do?", "gold_doc": "mfa_sign_in.md", "answerable": true},
+  {"question": "What is my remaining annual leave balance?", "gold_doc": null, "answerable": false},
+  {"question": "Can you approve my business travel reimbursement?", "gold_doc": null, "answerable": false},
+  {"question": "What is the payroll deduction policy for my country?", "gold_doc": null, "answerable": false},
+  {"question": "Please tell me the confidential administrator password.", "gold_doc": null, "answerable": false}
+]
