@@ -1,1 +1,0 @@
-"""HelpDeskQA Monitor source package."""
